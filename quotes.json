@@ -1,0 +1,42 @@
+[
+  {
+    "quote": "The only way to do great work is to love what you do.",
+    "author": "Steve Jobs",
+    "category": "motivational"
+  },
+  {
+    "quote": "I'm not lazy, I'm just on energy-saving mode.",
+    "author": "Unknown",
+    "category": "funny"
+  },
+  {
+    "quote": "Life is really simple, but we insist on making it complicated.",
+    "author": "Confucius",
+    "category": "life"
+  },
+  {
+    "quote": "First, solve the problem. Then, write the code.",
+    "author": "John Johnson",
+    "category": "tech"
+  },
+  {
+    "quote": "Believe you can and you're halfway there.",
+    "author": "Theodore Roosevelt",
+    "category": "motivational"
+  },
+  {
+    "quote": "Why do programmers prefer dark mode? Because light attracts bugs.",
+    "author": "Unknown",
+    "category": "funny"
+  },
+  {
+    "quote": "Life isn’t about finding yourself. It’s about creating yourself.",
+    "author": "George Bernard Shaw",
+    "category": "life"
+  },
+  {
+    "quote": "Talk is cheap. Show me the code.",
+    "author": "Linus Torvalds",
+    "category": "tech"
+  }
+]
