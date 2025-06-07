@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #43cea2, #185a9d);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #fff;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 20px;
+  text-align: center;
+  width: 90%;
+  max-width: 600px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+h1 {
+  margin-bottom: 10px;
+  font-size: 2rem;
+}
+
+.clock {
+  margin: 0;
+  font-size: 1rem;
+  color: #eee;
+}
+
+.category-select {
+  margin: 20px 0;
+}
+
+select {
+  padding: 5px 10px;
+  border-radius: 6px;
+  border: none;
+  font-size: 1rem;
+}
+
+.quote-box {
+  margin: 20px 0;
+  font-size: 1.2rem;
+  font-style: italic;
+  color: #fff;
+}
+
+#author {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #ffd;
+}
+
+.buttons button {
+  margin: 10px 5px;
+  padding: 10px 15px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #ff5e57;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.buttons button:hover {
+  background-color: #e64942;
+}
+
+.hint {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}

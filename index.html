@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Enhanced Quote Generator</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <h1>🌟 Quote Generator</h1>
+    <p class="clock" id="clock"></p>
+
+    <div class="category-select">
+      <label for="category">Choose category:</label>
+      <select id="category" onchange="generateQuote()">
+        <option value="all">All</option>
+        <option value="motivational">Motivational</option>
+        <option value="funny">Funny</option>
+        <option value="life">Life</option>
+        <option value="tech">Tech</option>
+      </select>
+    </div>
+
+
